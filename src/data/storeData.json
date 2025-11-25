@@ -1,0 +1,23 @@
+[
+  {
+    "id": "mpr",
+    "name": "MPR Electronics",
+    "logo": "/images/mpr-logo.png",
+    "description": "Best electronic products & services in town.",
+    "rating": 4.5,
+    "reviews": 233,
+    "tags": ["Verified"],
+    "phone": "",
+    "whatsapp": "",
+    "address": "Chennai, Tamil Nadu",
+    "mapUrl": "https://www.google.com/maps/embed?pb=YOUR_MAP_CODE",
+    "services": ["Mobile Repair", "Accessories", "Electronic Sales"],
+    "offers": ["20% OFF on Headphones", "Buy 1 Get 1 Free Powerbank"],
+    "images": ["/images/mpr1.jpg", "/images/mpr2.jpg", "/images/mpr3.jpg"],
+    "products": [
+      { "name": "Samsung M13 Mobile", "price": "₹10,999", "image": "/images/mobile1.jpg", "category": "Mobiles" },
+      { "name": "Boat Airdopes 131", "price": "₹999", "image": "/images/airpods.jpg", "category": "Accessories" },
+      { "name": "HP Laptop 15s", "price": "₹49,000", "image": "/images/laptop.jpg", "category": "Laptops" }
+    ]
+  }
+]

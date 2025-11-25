@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./compoent/Navbar"; // UPDATED PATH
 import { Home, About, Offers, Jobs, Store, Contact } from "./router";
 import CategoryPage from "./pages/CategoryPage";
+import StoreList from "./pages/StoreList";
 
 export default function App() {
   return (
@@ -29,8 +30,12 @@ export default function App() {
     path="/jobs"
     element={<div className="pt-[80px]"><Jobs /></div>}
   />
-  <Route
+   <Route
     path="/store"
+    element={<div className="pt-[80px]"><StoreList/></div>}
+  />
+    <Route
+    path="/store/:id"
     element={<div className="pt-[80px]"><Store/></div>}
   />
   <Route
