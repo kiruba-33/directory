@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #FFFFFF;
+  color: #1E293B;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  padding-top: 90px;   /* Adjust if navbar is bigger */
+}
+
+
+/* offerslider css */
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev,
+  .prev-btn,
+  .next-btn {
+    display: none; /* hides arrows in small screens */
+  }
+}
+
+/* Smooth fade-in effect for slider */
+.swiper-slide img {
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0.6; scale: 1.02; }
+  to   { opacity: 1; scale: 1; }
+}
+
+/* top categories css */
+
+/* Hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
+/* ===== FLASH DEAL PREMIUM BACKGROUND ===== */
+
+.flashdeal-animated-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+
+  /* base gradient */
+  background:
+    radial-gradient(circle at 10% 20%, rgba(255, 0, 102, 0.35) 0, transparent 55%),
+    radial-gradient(circle at 90% 80%, rgba(0, 204, 255, 0.3) 0, transparent 55%),
+    radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.18) 0, transparent 60%),
+    radial-gradient(circle at 50% 100%, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 1) 65%);
+
+  animation: flashdeal-move 26s ease-in-out infinite alternate;
+}
+
+/* subtle parallax glow using pseudo-layers */
+.flashdeal-animated-bg::before,
+.flashdeal-animated-bg::after {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.08) 0, transparent 55%),
+    radial-gradient(circle at 80% 70%, rgba(255, 255, 255, 0.06) 0, transparent 60%);
+  mix-blend-mode: screen;
+  opacity: 0.6;
+  animation: flashdeal-parallax 18s linear infinite;
+}
+
+.flashdeal-animated-bg::after {
+  animation-duration: 32s;
+  animation-direction: reverse;
+  opacity: 0.4;
+}
+
+@keyframes flashdeal-move {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(-2%, -3%, 0) scale(1.03);
+  }
+  100% {
+    transform: translate3d(3%, 2%, 0) scale(1.02);
+  }
+}
+
+@keyframes flashdeal-parallax {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(3%, -2%, 0);
+  }
+  100% {
+    transform: translate3d(-3%, 2%, 0);
+  }
+}
+
+
+
+

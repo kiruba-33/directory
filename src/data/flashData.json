@@ -1,0 +1,23 @@
+[
+  {
+    "image": "/assets/deal1.jpg",
+    "subtitle": "Energy Caffeine Gum",
+    "title": "Peppermint | ₹3/Gum",
+    "price": "₹85  ₹660",
+    "discount": "Flat 88% Off"
+  },
+  {
+    "image": "/assets/deal2.jpg",
+    "subtitle": "Women's Cargos",
+    "title": "Trendy Styles",
+    "price": "Flat 60% Cashback",
+    "discount": "Grab Deal"
+  },
+  {
+    "image": "/assets/deal3.jpg",
+    "subtitle": "Zero Forex Fee",
+    "title": "Scapia Card",
+    "price": "₹600 Reward",
+    "discount": "Apply Now"
+  }
+]

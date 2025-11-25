@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "5% Unlimited Cashback",
+    "image": "/images/offer1.jpg",
+    "link": "https://example.com/offers/cashback"
+  },
+  {
+    "id": 2,
+    "title": "Streaming Exclusive Movie Sale",
+    "image": "/images/offer2.jpg",
+    "link": "https://example.com/offers/movies"
+  },
+  {
+    "id": 3,
+    "title": "Book Tickets Now",
+    "image": "/images/offer3.jpg",
+    "link": "https://example.com/offers/tickets"
+  },
+  {
+    "id": 4,
+    "title": "Special Bank Offer",
+    "image": "/images/offer4.jpg",
+    "link": "https://example.com/offers/bank"
+  }
+]

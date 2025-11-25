@@ -1,0 +1,7 @@
+[
+  { "name": "Hotels", "icon": "/src/assets/icons/hotel.png" },
+  { "name": "Beauty", "icon": "/src/assets/icons/beauty.png" },
+  { "name": "Grocery", "icon": "/src/assets/icons/grocery.png" },
+  { "name": "Electronics", "icon": "/src/assets/icons/electronics.png" },
+  { "name": "Medical", "icon": "/src/assets/icons/medical.png" }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Sanjos Supermarket",
+    "location": "Theni Main Road",
+    "image": "/src/assets/images/sanjos.jpg",
+    "category": "Grocery"
+  },
+  {
+    "name": "City Pizza Theni",
+    "location": "Near Bus Stand",
+    "image": "/src/assets/images/pizza.jpg",
+    "category": "Hotel"
+  },
+  {
+    "name": "Beauty Queen Salon",
+    "location": "Cumbum Road",
+    "image": "/src/assets/images/salon.jpg",
+    "category": "Beauty"
+  },
+  {
+    "name": "Star Electronics",
+    "location": "Vadilal Nagar",
+    "image": "/src/assets/images/electronics.jpg",
+    "category": "Electronics"
+  }
+]
