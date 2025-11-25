@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const categories = [
   { name: "Most Popular", img: "/top/top0.webp", route: "most-popular" },
-  { name: "Electronics", img: "/top/top1.webp", route: "electronics" },
+  { name: " Electronics & Appliances", img: "/top/top1.webp", route: "electronics & appliances" },
   { name: "Fashion", img: "/top/top2.jpg", route: "fashion" },
   { name: "Home & Kitchen", img: "/top/top3.webp", route: "home-kitchen" },
   { name: "50% Cashback", img: "/top/top4.png", route: "cashback" },

@@ -42,7 +42,8 @@ const OfferSlider = () => {
   ];
 
   return (
-    <div className="w-[90%] mx-auto mt-4 relative">
+    <div className="w-full max-w-[100%] mt-4 relative overflow-hidden">
+
 
       {/* 🔥 FIXED — FULL WIDTH (NO GAP) */}
       <Swiper
