@@ -4,10 +4,10 @@ import { Menu, X, Home, Info, Tag, Briefcase, Store, Phone, Search, MapPin } fro
 
 const navItems = [
   { name: "Home", path: "/", icon: <Home size={18} /> },
-  { name: "About", path: "/about", icon: <Info size={18} /> },
   { name: "Offers", path: "/offers", icon: <Tag size={18} /> },
-  { name: "Jobs", path: "/jobs", icon: <Briefcase size={18} /> },
   { name: "Store", path: "/store", icon: <Store size={18} /> },
+   { name: "Jobs", path: "/jobs", icon: <Briefcase size={18} /> },
+   { name: "About", path: "/about", icon: <Info size={18} /> },
   { name: "Contact", path: "/contact", icon: <Phone size={18} /> },
 ];
 
